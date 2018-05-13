@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>What game are we playing? End-to-end learning in normal and extensive form games</title>
+      <link>https://lingchunkai.github.io/publication/diff-learning-extensive/</link>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lingchunkai.github.io/publication/diff-learning-extensive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>What game are we playing? Differentiably learning games from incomplete observations</title>
       <link>https://lingchunkai.github.io/publication/diff-learning-games/</link>
       <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
