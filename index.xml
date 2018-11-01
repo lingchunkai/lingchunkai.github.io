@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Large Scale Learning of Agent Rationality in Two-Player Zero-Sum Games</title>
+      <link>https://lingchunkai.github.io/publication/diff-learning-large-scale/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lingchunkai.github.io/publication/diff-learning-large-scale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>What game are we playing? End-to-end learning in normal and extensive form games</title>
       <link>https://lingchunkai.github.io/publication/diff-learning-extensive/</link>
       <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
