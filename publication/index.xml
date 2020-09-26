@@ -11,9 +11,45 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Deep Archimedean Copulas</title>
+      <link>https://lingchunkai.github.io/publication/ac-net/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lingchunkai.github.io/publication/ac-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonmyopic Gaussian Process Optimization with Macro-Actions</title>
+      <link>https://lingchunkai.github.io/publication/gpp-macro-actions/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lingchunkai.github.io/publication/gpp-macro-actions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Correlation in Extensive-Form Games: Saddle-Point Formulation and Benchmarks</title>
+      <link>https://lingchunkai.github.io/publication/efce-benchmarks-applications/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lingchunkai.github.io/publication/efce-benchmarks-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Regret Minimization Algorithm for Extensive-Form Correlated Equilibrium</title>
+      <link>https://lingchunkai.github.io/publication/efce-regret/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lingchunkai.github.io/publication/efce-regret/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Large Scale Learning of Agent Rationality in Two-Player Zero-Sum Games</title>
       <link>https://lingchunkai.github.io/publication/diff-learning-large-scale/</link>
-      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://lingchunkai.github.io/publication/diff-learning-large-scale/</guid>
       <description></description>

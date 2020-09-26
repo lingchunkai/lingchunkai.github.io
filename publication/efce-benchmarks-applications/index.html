@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="With the recent advances in solving large, zero-sum extensive form games, there is a growing interest in the inverse problem of inferring underlying game parameters given only access to agent actions. Although a recent work provides a powerful differentiable end-to-end learning frameworks which embed a game solver within a deep-learning framework, allowing unknown game parameters to be learned via backpropagation, this framework faces significant limitations when applied to boundedly rational human agents and large scale problems, leading to poor practicality. In this paper, we address these limitations and propose a framework that is applicable for more practical settings. First, seeking to learn the rationality of human agents in complex two-player zero-sum games, we draw upon well-known ideas in decision theory to obtain a concise and interpretable agent behavior model, and derive solvers and gradients for end-to-end learning. Second, to scale up to large, real-world scenarios, we propose an efficient first-order primal-dual method which exploits the structure of extensive-form games, yielding significantly faster computation for both game solving and gradient computation. When tested on randomly generated games, we report speedups of orders of magnitude over previous approaches. We also demonstrate the effectiveness of our model on both real-world one-player settings and synthetic data.">
+  <meta name="description" content="While Nash equilibrium in extensive-form games is well understood, very little is known about the properties of extensive-form correlated equilibrium (EFCE), both from a behavioral and from a computational point of view. In this setting, the strategic behavior of players is complemented by an external device that privately recommends moves to agents as the game progresses; players are free to deviate at any time, but will then not receive future recommendations. Our contributions are threefold. First, we show that an EFCE can be formulated as the solution to a bilinear saddle-point problem. To showcase how this novel formulation can inspire new algorithms to compute EFCEs, we propose a simple subgradient descent method which exploits this formulation and structural properties of EFCEs. Our method has better scalability than the prior approach based on linear programming. Second, we propose two benchmark games, which we hope will serve as the basis for future evaluation of EFCE solvers. These games were chosen so as to cover two natural application domains for EFCE: conflict resolution via a mediator, and bargaining and negotiation. Third, we document the qualitative behavior of EFCE in our proposed games. We show that the social-welfare-maximizing equilibria in these games are highly nontrivial and exhibit surprisingly subtle sequential behavior that so far has not received attention in the literature.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://lingchunkai.github.io/publication/diff-learning-large-scale/">
+  <link rel="alternate" hreflang="en-us" href="https://lingchunkai.github.io/publication/efce-benchmarks-applications/">
 
   
 
@@ -68,24 +68,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://lingchunkai.github.io/publication/diff-learning-large-scale/">
+  <link rel="canonical" href="https://lingchunkai.github.io/publication/efce-benchmarks-applications/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="">
-  <meta property="og:url" content="https://lingchunkai.github.io/publication/diff-learning-large-scale/">
-  <meta property="og:title" content="Large Scale Learning of Agent Rationality in Two-Player Zero-Sum Games | ">
-  <meta property="og:description" content="With the recent advances in solving large, zero-sum extensive form games, there is a growing interest in the inverse problem of inferring underlying game parameters given only access to agent actions. Although a recent work provides a powerful differentiable end-to-end learning frameworks which embed a game solver within a deep-learning framework, allowing unknown game parameters to be learned via backpropagation, this framework faces significant limitations when applied to boundedly rational human agents and large scale problems, leading to poor practicality. In this paper, we address these limitations and propose a framework that is applicable for more practical settings. First, seeking to learn the rationality of human agents in complex two-player zero-sum games, we draw upon well-known ideas in decision theory to obtain a concise and interpretable agent behavior model, and derive solvers and gradients for end-to-end learning. Second, to scale up to large, real-world scenarios, we propose an efficient first-order primal-dual method which exploits the structure of extensive-form games, yielding significantly faster computation for both game solving and gradient computation. When tested on randomly generated games, we report speedups of orders of magnitude over previous approaches. We also demonstrate the effectiveness of our model on both real-world one-player settings and synthetic data.">
+  <meta property="og:url" content="https://lingchunkai.github.io/publication/efce-benchmarks-applications/">
+  <meta property="og:title" content="Correlation in Extensive-Form Games: Saddle-Point Formulation and Benchmarks | ">
+  <meta property="og:description" content="While Nash equilibrium in extensive-form games is well understood, very little is known about the properties of extensive-form correlated equilibrium (EFCE), both from a behavioral and from a computational point of view. In this setting, the strategic behavior of players is complemented by an external device that privately recommends moves to agents as the game progresses; players are free to deviate at any time, but will then not receive future recommendations. Our contributions are threefold. First, we show that an EFCE can be formulated as the solution to a bilinear saddle-point problem. To showcase how this novel formulation can inspire new algorithms to compute EFCEs, we propose a simple subgradient descent method which exploits this formulation and structural properties of EFCEs. Our method has better scalability than the prior approach based on linear programming. Second, we propose two benchmark games, which we hope will serve as the basis for future evaluation of EFCE solvers. These games were chosen so as to cover two natural application domains for EFCE: conflict resolution via a mediator, and bargaining and negotiation. Third, we document the qualitative behavior of EFCE in our proposed games. We show that the social-welfare-maximizing equilibria in these games are highly nontrivial and exhibit surprisingly subtle sequential behavior that so far has not received attention in the literature.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-04-25T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-09-04T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-04-25T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2019-09-04T00:00:00&#43;00:00">
   
 
-  <title>Large Scale Learning of Agent Rationality in Two-Player Zero-Sum Games | </title>
+  
+
+  <title>Correlation in Extensive-Form Games: Saddle-Point Formulation and Benchmarks | </title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -224,10 +224,10 @@
 
 
   <div class="container pub-title">
-    <h1 itemprop="name">Large Scale Learning of Agent Rationality in Two-Player Zero-Sum Games</h1>
+    <h1 itemprop="name">Correlation in Extensive-Form Games: Saddle-Point Formulation and Benchmarks</h1>
     <span class="pub-authors" itemprop="author">
       
-      Chun Kai Ling, Fei Fang, J. Zico Kolter
+      Gabriele Farina, Chun Kai Ling, Fei Fang, Tuomas Sandholm
       
     </span>
     <span class="pull-right">
@@ -236,35 +236,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Large%20Scale%20Learning%20of%20Agent%20Rationality%20in%20Two-Player%20Zero-Sum%20Games&amp;url=https%3a%2f%2flingchunkai.github.io%2fpublication%2fdiff-learning-large-scale%2f"
+         href="https://twitter.com/intent/tweet?text=Correlation%20in%20Extensive-Form%20Games%3a%20Saddle-Point%20Formulation%20and%20Benchmarks&amp;url=https%3a%2f%2flingchunkai.github.io%2fpublication%2fefce-benchmarks-applications%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flingchunkai.github.io%2fpublication%2fdiff-learning-large-scale%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flingchunkai.github.io%2fpublication%2fefce-benchmarks-applications%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flingchunkai.github.io%2fpublication%2fdiff-learning-large-scale%2f&amp;title=Large%20Scale%20Learning%20of%20Agent%20Rationality%20in%20Two-Player%20Zero-Sum%20Games"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flingchunkai.github.io%2fpublication%2fefce-benchmarks-applications%2f&amp;title=Correlation%20in%20Extensive-Form%20Games%3a%20Saddle-Point%20Formulation%20and%20Benchmarks"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flingchunkai.github.io%2fpublication%2fdiff-learning-large-scale%2f&amp;title=Large%20Scale%20Learning%20of%20Agent%20Rationality%20in%20Two-Player%20Zero-Sum%20Games"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flingchunkai.github.io%2fpublication%2fefce-benchmarks-applications%2f&amp;title=Correlation%20in%20Extensive-Form%20Games%3a%20Saddle-Point%20Formulation%20and%20Benchmarks"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Large%20Scale%20Learning%20of%20Agent%20Rationality%20in%20Two-Player%20Zero-Sum%20Games&amp;body=https%3a%2f%2flingchunkai.github.io%2fpublication%2fdiff-learning-large-scale%2f">
+         href="mailto:?subject=Correlation%20in%20Extensive-Form%20Games%3a%20Saddle-Point%20Formulation%20and%20Benchmarks&amp;body=https%3a%2f%2flingchunkai.github.io%2fpublication%2fefce-benchmarks-applications%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -281,7 +281,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">With the recent advances in solving large, zero-sum extensive form games, there is a growing interest in the inverse problem of inferring underlying game parameters given only access to agent actions. Although a recent work provides a powerful differentiable end-to-end learning frameworks which embed a game solver within a deep-learning framework, allowing unknown game parameters to be learned via backpropagation, this framework faces significant limitations when applied to boundedly rational human agents and large scale problems, leading to poor practicality. In this paper, we address these limitations and propose a framework that is applicable for more practical settings. First, seeking to learn the rationality of human agents in complex two-player zero-sum games, we draw upon well-known ideas in decision theory to obtain a concise and interpretable agent behavior model, and derive solvers and gradients for end-to-end learning. Second, to scale up to large, real-world scenarios, we propose an efficient first-order primal-dual method which exploits the structure of extensive-form games, yielding significantly faster computation for both game solving and gradient computation. When tested on randomly generated games, we report speedups of orders of magnitude over previous approaches. We also demonstrate the effectiveness of our model on both real-world one-player settings and synthetic data.</p>
+    <p class="pub-abstract" itemprop="text">While Nash equilibrium in extensive-form games is well understood, very little is known about the properties of extensive-form correlated equilibrium (EFCE), both from a behavioral and from a computational point of view. In this setting, the strategic behavior of players is complemented by an external device that privately recommends moves to agents as the game progresses; players are free to deviate at any time, but will then not receive future recommendations. Our contributions are threefold. First, we show that an EFCE can be formulated as the solution to a bilinear saddle-point problem. To showcase how this novel formulation can inspire new algorithms to compute EFCEs, we propose a simple subgradient descent method which exploits this formulation and structural properties of EFCEs. Our method has better scalability than the prior approach based on linear programming. Second, we propose two benchmark games, which we hope will serve as the basis for future evaluation of EFCE solvers. These games were chosen so as to cover two natural application domains for EFCE: conflict resolution via a mediator, and bargaining and negotiation. Third, we document the qualitative behavior of EFCE in our proposed games. We show that the social-welfare-maximizing equilibria in these games are highly nontrivial and exhibit surprisingly subtle sequential behavior that so far has not received attention in the literature.</p>
     
 
     
@@ -310,7 +310,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">Large Scale Learning of Agent Rationality in Two-Player Zero-Sum Games</div>
+          <div class="col-xs-12 col-sm-9">Correlation in Extensive-Form Games: Saddle-Point Formulation and Benchmarks</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -324,7 +324,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            April, 2019
+            September, 2019
           </div>
         </div>
       </div>
@@ -344,7 +344,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1903.04101" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1905.12564" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -357,10 +357,6 @@
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://lingchunkai.github.io/pdf/diff-learning-large-scale.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
 
 
 
@@ -388,12 +384,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://lingchunkai.github.io/publication/diff-learning-extensive/"><span
-      aria-hidden="true">&larr;</span> What game are we playing? End-to-end learning in normal and extensive form games</a></li>
+    <li class="previous"><a href="https://lingchunkai.github.io/publication/efce-regret/"><span
+      aria-hidden="true">&larr;</span> Efficient Regret Minimization Algorithm for Extensive-Form Correlated Equilibrium</a></li>
     
 
     
-    <li class="next"><a href="https://lingchunkai.github.io/publication/efce-regret/">Efficient Regret Minimization Algorithm for Extensive-Form Correlated Equilibrium <span
+    <li class="next"><a href="https://lingchunkai.github.io/publication/gpp-macro-actions/">Nonmyopic Gaussian Process Optimization with Macro-Actions <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
