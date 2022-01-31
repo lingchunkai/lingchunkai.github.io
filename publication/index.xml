@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on </title>
+    <title>Publications | Academic</title>
     <link>https://lingchunkai.github.io/publication/</link>
-    <description>Recent content in Publications on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+      <atom:link href="https://lingchunkai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lingchunkai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://lingchunkai.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Safe Search for Stackelberg Equilibria in Extensive-Form Games</title>
+      <link>https://lingchunkai.github.io/publication/safe-search-efce/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/safe-search-efce/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep Archimedean Copulas</title>
       <link>https://lingchunkai.github.io/publication/ac-net/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://lingchunkai.github.io/publication/ac-net/</guid>
       <description></description>
     </item>
@@ -23,7 +32,6 @@
       <title>Safe Search for Stackelberg Equilibria in Extensive-Form Games</title>
       <link>https://lingchunkai.github.io/publication/safe-search-sse/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://lingchunkai.github.io/publication/safe-search-sse/</guid>
       <description></description>
     </item>
@@ -32,7 +40,6 @@
       <title>Nonmyopic Gaussian Process Optimization with Macro-Actions</title>
       <link>https://lingchunkai.github.io/publication/gpp-macro-actions/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://lingchunkai.github.io/publication/gpp-macro-actions/</guid>
       <description></description>
     </item>
@@ -41,7 +48,6 @@
       <title>Correlation in Extensive-Form Games: Saddle-Point Formulation and Benchmarks</title>
       <link>https://lingchunkai.github.io/publication/efce-benchmarks-applications/</link>
       <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://lingchunkai.github.io/publication/efce-benchmarks-applications/</guid>
       <description></description>
     </item>
@@ -50,7 +56,6 @@
       <title>Efficient Regret Minimization Algorithm for Extensive-Form Correlated Equilibrium</title>
       <link>https://lingchunkai.github.io/publication/efce-regret/</link>
       <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://lingchunkai.github.io/publication/efce-regret/</guid>
       <description></description>
     </item>
@@ -59,7 +64,6 @@
       <title>Large Scale Learning of Agent Rationality in Two-Player Zero-Sum Games</title>
       <link>https://lingchunkai.github.io/publication/diff-learning-large-scale/</link>
       <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://lingchunkai.github.io/publication/diff-learning-large-scale/</guid>
       <description></description>
     </item>
@@ -68,7 +72,6 @@
       <title>What game are we playing? End-to-end learning in normal and extensive form games</title>
       <link>https://lingchunkai.github.io/publication/diff-learning-extensive/</link>
       <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://lingchunkai.github.io/publication/diff-learning-extensive/</guid>
       <description></description>
     </item>
@@ -77,7 +80,6 @@
       <title>What game are we playing? Differentiably learning games from incomplete observations</title>
       <link>https://lingchunkai.github.io/publication/diff-learning-games/</link>
       <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://lingchunkai.github.io/publication/diff-learning-games/</guid>
       <description></description>
     </item>
@@ -86,7 +88,6 @@
       <title>Gaussian Process Planning with Lipschitz Continuous Reward Functions</title>
       <link>https://lingchunkai.github.io/publication/gaussian-process-planning/</link>
       <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://lingchunkai.github.io/publication/gaussian-process-planning/</guid>
       <description></description>
     </item>

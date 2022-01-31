@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Academic</title>
+    <link>https://lingchunkai.github.io/authors/</link>
+      <atom:link href="https://lingchunkai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lingchunkai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Authors</title>
+      <link>https://lingchunkai.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://lingchunkai.github.io/authors/admin/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/authors/admin/about/</guid>
+      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
+&lt;p&gt;I am a 4th year PhD student in the Department of Computer Science, CMU. I am co-advised by &lt;a href=&#34;http://zicokolter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zico Kolter&lt;/a&gt; and &lt;a href=&#34;https://feifang.info&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fei Fang&lt;/a&gt;. I am broadly interested in artificial intelligence. My current projects involve designing machine learning techniques to learn and solve games.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
