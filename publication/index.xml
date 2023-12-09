@@ -5,12 +5,28 @@
     <link>https://lingchunkai.github.io/publication/</link>
       <atom:link href="https://lingchunkai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lingchunkai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://lingchunkai.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Deep Copula-based Survival Analysis for Dependent Censoring with Identifiability Guarantees</title>
+      <link>https://lingchunkai.github.io/publication/copula-censoring/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/copula-censoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Coalition Structures with Games</title>
+      <link>https://lingchunkai.github.io/publication/coalition-structure-learning/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/coalition-structure-learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Quantifying &amp; Modeling Multimodal Interactions: An Information Decomposition Framework</title>
