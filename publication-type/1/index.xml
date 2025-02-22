@@ -5,12 +5,20 @@
     <link>https://lingchunkai.github.io/publication-type/1/</link>
       <atom:link href="https://lingchunkai.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lingchunkai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://lingchunkai.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>How Deep Is Your Defense-in-Depth? Hardening Cybersecurity Network Control Against Adaptive Attackers</title>
+      <link>https://lingchunkai.github.io/publication/aics-cybersec/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/aics-cybersec/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Commitment to Sparse Strategies in Two-Player Games</title>
