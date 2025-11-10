@@ -5,12 +5,44 @@
     <link>https://lingchunkai.github.io/publication/</link>
       <atom:link href="https://lingchunkai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lingchunkai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://lingchunkai.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Colonel Blotto with Battlefield Games</title>
+      <link>https://lingchunkai.github.io/publication/blotto-salam/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/blotto-salam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security Games with Layered Defenses: Adaptive Adversaries and Gittins Indices</title>
+      <link>https://lingchunkai.github.io/publication/cybersec-gittins/</link>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/cybersec-gittins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game of Thought: Robust Information Seeking with Large Language Models Using Game Theory</title>
+      <link>https://lingchunkai.github.io/publication/icaps25-got/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/icaps25-got/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDPS: Discrete Diffusion Posterior Sampling for Layered Graphs</title>
+      <link>https://lingchunkai.github.io/publication/hao-diffusion-layered/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/hao-diffusion-layered/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>How Deep Is Your Defense-in-Depth? Hardening Cybersecurity Network Control Against Adaptive Attackers</title>
