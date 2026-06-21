@@ -7,16 +7,16 @@
     <description>Academic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lingchunkai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lingchunkai.github.io/media/icon_hu_b54bf139987df246.png</url>
       <title>Academic</title>
       <link>https://lingchunkai.github.io/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://lingchunkai.github.io/authors/admin/about/</link>
+      <link></link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://lingchunkai.github.io/authors/admin/about/</guid>
+      <guid></guid>
       <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;
 &lt;p&gt;I am a 4th year PhD student in the Department of Computer Science, CMU. I am co-advised by &lt;a href=&#34;http://zicokolter.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zico Kolter&lt;/a&gt; and &lt;a href=&#34;https://feifang.info&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fei Fang&lt;/a&gt;. I am broadly interested in artificial intelligence. My current projects involve designing machine learning techniques to learn and solve games.&lt;/p&gt;
 </description>
@@ -40,6 +40,38 @@
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>CARL: Criticality-Aware Agentic Reinforcement Learning</title>
+      <link>https://lingchunkai.github.io/publication/carl/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/carl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Communicating Chess Strategies in Natural Language</title>
+      <link>https://lingchunkai.github.io/publication/chess-interpret/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/chess-interpret/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing Equilibria in Games with Stochastic Action Sets</title>
+      <link>https://lingchunkai.github.io/publication/gsas/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/gsas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Equilibrium Computation in Extensive-Form Games with Stochastic Action Sets</title>
+      <link>https://lingchunkai.github.io/publication/efg-sas/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/efg-sas/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -228,7 +260,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
 &lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemy&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
 &lt;ul&gt;
