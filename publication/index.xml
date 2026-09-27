@@ -5,12 +5,20 @@
     <link>https://lingchunkai.github.io/publication/</link>
       <atom:link href="https://lingchunkai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lingchunkai.github.io/media/icon_hu_b54bf139987df246.png</url>
       <title>Publications</title>
       <link>https://lingchunkai.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>GoT: A Game-Theoretic Approach to the Game of Twenty Questions</title>
+      <link>https://lingchunkai.github.io/publication/neurips26-got/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://lingchunkai.github.io/publication/neurips26-got/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CARL: Criticality-Aware Agentic Reinforcement Learning</title>
